@@ -1,5 +1,8 @@
 ##Caso de Uso 002 - Registrar Débito
 
+### Pré-Condições
+1. O usuário tem que realizar login com sucesso no sistema
+
 ###FP : Fluxo Principal
 1. O usuário informa a data 
 2. O usuário informa o valor
