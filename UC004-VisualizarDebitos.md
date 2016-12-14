@@ -8,7 +8,7 @@
 2. O caso de uso se encerra 
 
 ###A1 : O usuário filtra os débitos por algum critério
-1. O usuário seleciona um determinado período [data inicial e data final (opcional)] (A2) 
+1. O usuário seleciona um determinado período data inicial e data final (opcional) (A2) 
 2. O usuário seleciona um tipo de débito (A3)
 3. O usuário informa as duas opções de filtro (A4)
 4. O sistema exibe os dados conforme aplicação do filtro selecionado
