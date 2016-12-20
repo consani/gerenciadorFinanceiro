@@ -4,11 +4,12 @@
 1. O usuário informa o nome
 2. O usuário informa login
 3. O usuário informa a senha 
-4. O sistema verifica os dados informados (E1)(E2) 
-5. O sistema exibe os dados para confirmação do usuário
-6. O usuário confirma os dados (A1)
-7. O sistema registra os dados informados (E3)
-8. O caso de uso se encerra
+4. O usuário informa o saldo inicial da conta
+5. O sistema verifica os dados informados (E1)(E2) 
+6. O sistema exibe os dados para confirmação do usuário
+7. O usuário confirma os dados (A1)
+8. O sistema registra os dados informados (E3)
+9. O caso de uso se encerra
 
 ###A1 : O usuário não confirma os dados
 1. O usuário não confirma os dados exibidos pelo sistema
