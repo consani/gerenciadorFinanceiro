@@ -1,0 +1,7 @@
+sqlRegistroLancamento=insert into TB_LANCAMENTOS (valor,data,tipo,descricao,eh_despesa,login) values (?,?,?,?,?,?)
+sqlDebitosFiltro=select valor,data,descricao,tipo from TB_LANCAMENTOS where ehDespesa = ? AND (data between ? AND ?) AND login = ?
+sqlDebitosFiltroTipo=select valor,data,descricao,tipo from TB_LANCAMENTOS where ehDespesa = ? AND (data between ? AND ?) AND tipo = ? AND login = ?
+sqlRegistroUsuario=insert into TB_USUARIOS (nome,login,senha,saldo) values (?,?,?,?)
+sqlVerificaLogin=select nome,login,senha,saldo from TB_USUARIOS where login = ?
+sqlGetUsuario=select nome,login,senha,saldo from TB_USUARIOS where login = ? AND senha = ?
+padraoDataMySql=yyyy/MM/dd
